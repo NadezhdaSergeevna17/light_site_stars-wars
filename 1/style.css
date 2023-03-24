@@ -1,0 +1,34 @@
+section {
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+img {
+  width: 100px;
+  height: 100px;
+  animation: zvez 5s linear infinite;
+  position: relative;
+}
+
+@keyframes zvez {
+  0% {
+    transform: rotate(0deg);
+    left: 50px;
+  }
+  25% {
+    transform: rotate(90deg);
+    left: 200px;
+  }
+  50% {
+    transform: rotate(100deg);
+    left: 500px;
+  }
+  75% {
+    transform: rotate(270px);
+    left: 700px;
+  }
+  100% {
+    transform: rotate(360deg);
+    left: 1000px;
+  }
+}
